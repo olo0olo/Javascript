@@ -4,7 +4,7 @@
 function mysearch(str0 = '', str1 = ' ') {
     
   let position = str0.length - str1.length;
-
+    
     for (let i = 0; i <= position ; i++) {  
       if (str0[i]===str1[0]){
         answ = '';
