@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    class Dictionary {
+      constructor() {
+        this.dictionary = [];
+        }
+      newEntry(word, str) {
+        this.dictionary[word]=str;
+        return this;
+        }
+       getMean(word) {
+         if(!this.dictionary[word]){
+           return `Can't find entry for ${word}`
+            }
+            return  this.dictionary[word];
+        }
+    }
+    let dictionary = new Dictionary();
+    console.log(dictionary.newEntry("Apple", "A fruit that grows on trees").newEntry("Banana","Yellow"));
+    console.log(dictionary.getMean("Apple"));
+    console.log(dictionary.getMean("Cherry"));
+
+</script>
+</body>
+</html>
