@@ -12,16 +12,16 @@ body {
     color:#fff;
   }
   h1  {
-    color:  rgba(48, 7, 94, 0.733);
+    color:  rgba(110, 6, 6, 0.733);
     font-size: 60px;
-    font-weight: 300;
+    font-weight: 600;
     text-align: center;
   }
   .taskBox {
     background-color: rgba(125, 33, 231, 0.733);
     width: 30%;
     margin: 0 auto;
-    
+    border-radius: 50px
     
   }
   .taskBox > ul {
