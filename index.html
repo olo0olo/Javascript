@@ -1,25 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homework</title>
-    <link rel="stylesheet" href="style.css">
+  
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
 </head>
 <body>
-    <h1>Tasks</h1>
-    <div class="taskBox">
-        <ul>
-            <li><a href="Traffic Light.html">Task : </a>Traffic Light</li>
-            <li><a href="PaginationHelper.html">Task : </a>PaginationHelper</li>
-            <li><a href="fighter.html">Task : </a>fighter</li>
-           
-
-
-        </ul>
-    </div>
+   <!-- <h1>Calculator</h1>-->
     
+<div id="calc_buttons">
+    <p id="working" class='work'>0</p>
+    <p id="workingForm" class='work1'>0</p>
 
+    <div id="MCbut" class="bulb" onclick="btnclick('=')">MC</div>
+    <div id="MRbut" class="bulb" onclick="btnclick('=')">MR</div>
+    <div id="M-but" class="bulb" onclick="btnclick('=')">M-</div>
+    <div id="M+but" class="bulb" onclick="btnclick('=')">M+</div>
+    <div id="(but" class="bulb" onclick="btnclick('(')">(</div>
+    <div id=")but" class="bulb" onclick="btnclick(')')">)</div>
+    
+    <div id="powbut" class="bulb" onclick="btnclick('^')">^</div>
+    <div id="7but" class="bulb" onclick="btnclick('7')">7</div>
+    <div id="8but" class="bulb" onclick="btnclick('8')">8</div>
+    <div id="9but" class="bulb" onclick="btnclick('9')">9</div>
+    <div id="/but" class="bulb" onclick="btnclick('/')">/</div>
+    <div id="%but" class="bulb" onclick="btnclick('%')">%</div>
+    
+    <div id="!but" class="bulb" onclick="btnclick('!')">--></div>
+    <div id="4but" class="bulb" onclick="btnclick('4')">4</div>
+    <div id="5but" class="bulb" onclick="btnclick('5')">5</div>
+    <div id="6but" class="bulb" onclick="btnclick('6')">6</div>
+    <div id="*but" class="bulb" onclick="btnclick('*')">*</div>
+    <div id="-but" class="bulb" onclick="btnclick('-')">-</div>
+
+    <div id="ACbut" class="bulb" onclick="btnclick('=')">AC</div>
+    <div id="1but" class="bulb" onclick="btnclick('1')">1</div>
+    <div id="2but" class="bulb" onclick="btnclick('2')">2</div>
+    <div id="3but" class="bulb" onclick="btnclick('3')">3</div>
+    <div id="+but" class="bulb" onclick="btnclick('+')">+</div>
+    <div id="xybut" class="bulb" onclick="btnclick('^')">x^y</div>
+
+    <div id="Cbut" class="bulb" onclick="btnclick('c')">C</div>
+    <div id="0but" class="bulb" onclick="btnclick('0')">0</div>
+    <div id="00but" class="bulb" onclick="btnclick('00')">00</div>
+    <div id=".but" class="bulb" onclick="btnclick('.')">.</div>
+    <div id="zbut" class="bulb1" onclick="btnclick('=')">=</div>
+
+    
+  </div>
+
+
+
+ <!-- <div id="controlPanel">
+    <h1 id="Button1" class="button" onclick="illuminate(count)">Next</h1>-->
+    
+  </div>
+  <script src="calc.js"></script>
 </body>
 </html>
