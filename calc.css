@@ -18,49 +18,53 @@ h1  {
   height: 850px;
   width: 730px;
   float: left;
-  background-color: rgb(35, 13, 53);
+  background-color: rgb(43, 43, 44);
   border-radius: 50px;
   margin-left: 150px;
   padding: 20px;
   text-align: center;
+  user-select: none;
 }
 .work {
   height: 70px;
   width: 730px;
-  background-color: rgb(128, 130, 240);
+  background-color: rgb(221, 222, 248);
   border-radius: 10%;
   font-size: 400%;
   text-align: right;
-  color: rgb(9, 231, 9);
+  color: rgb(12, 34, 12);
 }
 .work1 {
   height: 30px;
   width: 730px;
-  background-color: rgb(100, 101, 134);
+  background-color: rgb(192, 193, 224);
   border-radius: 10%;
   font-size: 150%;
   text-align: center;
-  color: rgb(9, 231, 9);
+  color: rgb(17, 58, 17);
 }
 .bulb {
-  height: 100px;
+  height: 90px;
   width: 100px;
   float: left;
-  background-color: rgb(114, 70, 70);
+  background-color: rgb(75, 76, 77);
   border-radius: 10%;
   margin: 10px;
   transition: background 500ms;
   cursor: pointer;
   text-align: center;
   font-size: 300%;
-  color: green;
+  color: rgb(138, 167, 180);
   padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items:  center ;
 }
 .bulb1 {
   height: 100px;
   width: 220px;
   float: left;
-  background-color: rgb(114, 70, 70);
+  background-color: rgb(15, 75, 92);
   border-radius: 10%;
   margin: 10px;
   transition: background 500ms;
